@@ -1,0 +1,15 @@
+cd GitHubProjects
+
+git config --global user.name "KashifSamad"
+git config --global user.email kashifsamad@hotmail.com
+git clone https://github.com/appcursor/BootstrapTesting2.git
+
+cd BootstrapTesting2.git
+git add testgit.txt
+git status
+git commit -m "Test the commit command" testgit.txt
+git push -u origin master
+
+
+
+
